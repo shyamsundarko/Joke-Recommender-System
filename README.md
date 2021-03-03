@@ -3,7 +3,7 @@ Two recommendation systems have been built:
 1) A Simple Recommendation system:
     - This is built using the Pearson's correllation coeffecient 
     - Jokes recommended are from the same dataset
-2) User-to-User Recommender system
+2) User-to-User Recommender system using cosine similarity
 2) User-to-User Collaborative Filtering
 
 
@@ -30,8 +30,6 @@ Two recommendation systems have been built:
 
 
 ### **Correlation heatmap comparing every suggested joke with each other**
-\
-\
 ![image](https://user-images.githubusercontent.com/79359151/109818830-63f24280-7c6e-11eb-89b3-8ddfc156fa32.png)
 
 ### Observations:
@@ -47,6 +45,21 @@ Two recommendation systems have been built:
 \
 ![image](https://user-images.githubusercontent.com/79359151/109820142-b2eca780-7c6f-11eb-82ba-e0af0b0b3234.png)
 
+
+## **User-to-User Recommender System**
+![image](https://user-images.githubusercontent.com/79359151/109822036-8c2f7080-7c71-11eb-8d85-eb92527a2b2d.png)
+1) Prepare dataset "jester-joke-2" as a test set
+![image](https://user-images.githubusercontent.com/79359151/109822276-c4cf4a00-7c71-11eb-98be-180b6678881e.png)
+2) Extract a single user record and also keep the top 10 liked jokes of that user
+![image](https://user-images.githubusercontent.com/79359151/109822498-f7794280-7c71-11eb-8f4e-95a253518ae6.png)
+3) Append the user record to jester-joke-1 data frame and replace the NaN's with the mean values of the corresponding column
+![image](https://user-images.githubusercontent.com/79359151/109822723-30b1b280-7c72-11eb-8441-b739ec640e1b.png)
+4) Cosine similarity between users and transfer to absolute values
+![image](https://user-images.githubusercontent.com/79359151/109822828-4c1cbd80-7c72-11eb-8692-01ee0a7d13b0.png)
+5) Get the top 100 similar users and their ratings
+![image](https://user-images.githubusercontent.com/79359151/109822888-5c349d00-7c72-11eb-8823-bf7859f4105b.png)
+6) Recommend 20 jokes based on similar users
+![image](https://user-images.githubusercontent.com/79359151/109822989-766e7b00-7c72-11eb-8ff4-e03fff90f6e2.png)
 
 
 
