@@ -18,7 +18,8 @@ Steps taken to implement Simple Recommender System:
 ![image](https://user-images.githubusercontent.com/79359151/109817415-dfeb8b00-7c6c-11eb-95be-cf2209415f52.png)
 
  
-2) Correlation between two jokes: This is calculated using the function shown below which calculates the difference between a value in a column and the mean of the column. This is done for both the jokes to be compared and then correlation between them is calculated using the last line of the function shown in the diagram (Pearson's correlation coeffecient)
+2) Correlation between two jokes: 
+   This is calculated using the function shown below which calculates the difference between a value in a column and the mean of the column. This is done for both the jokes to be compared and then correlation between them is calculated using the last line of the function shown in the diagram (Pearson's correlation coeffecient)
 ![image](https://user-images.githubusercontent.com/79359151/109815105-3efbd080-7c6a-11eb-801b-54f068bdfd0c.png)
 
 3) Building the simple recommender:
