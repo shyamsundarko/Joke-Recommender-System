@@ -1,7 +1,11 @@
 # Joke-Recommender-System
 Two recommendation systems have been built:
-1) A simple recommendation system\ - This is built using the Pearson's correllation coeffecient\ - Jokes recommended are from the same dataset
-2) A more complex recommendation system using collaborative filtering\ - This is built using collaborative filtering\ - Jokes recommended from another dataset based on user choices on a different initial dataset
+1) A simple recommendation system:\ 
+    - This is built using the Pearson's correllation coeffecient\ 
+    - Jokes recommended are from the same dataset
+2) A more complex recommendation system using collaborative filtering\ 
+    - This is built using collaborative filtering\ 
+    - Jokes recommended from another dataset based on user choices on a different initial dataset
 
 
 
