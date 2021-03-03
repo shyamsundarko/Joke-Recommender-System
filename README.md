@@ -28,7 +28,7 @@ Two recommendation systems have been built:
 ![image](https://user-images.githubusercontent.com/79359151/109818673-35746780-7c6e-11eb-837a-5eaf98c5b8b3.png)
 ![image](https://user-images.githubusercontent.com/79359151/109818728-47560a80-7c6e-11eb-8f6b-51c8ed155936.png)
 \
-\
+
 \
 ### **Correlation heatmap comparing every suggested joke with each other**
 \
