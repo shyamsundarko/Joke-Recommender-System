@@ -41,8 +41,8 @@ Two recommendation systems have been built:
 ![image](https://user-images.githubusercontent.com/79359151/109819315-e418a800-7c6e-11eb-9c05-9c6097b43abd.png)
 
    - Finding the jokes that are common to both lists help provide a better informed recommendation of jokes
-\ 
-\
+
+
 ![image](https://user-images.githubusercontent.com/79359151/109820142-b2eca780-7c6f-11eb-82ba-e0af0b0b3234.png)
 
 
