@@ -8,7 +8,7 @@ Two recommendation systems have been built:
     - Jokes recommended from another dataset based on user choices on a different initial dataset
 
 Steps taken to implement Simple Recommender System:
-1) Cleaning the dataset
+1) Cleaning the dataset:\
     - Interpreting what the data stands for as it only contained numeric values 
     - Renaming the rows and columns with meaningful names
     - There were some garbage values in the dataset like "99" which essentially meant that the joke was not rated by that user (ratings range from -10 to +10)
@@ -18,9 +18,12 @@ Steps taken to implement Simple Recommender System:
 ![image](https://user-images.githubusercontent.com/79359151/109817415-dfeb8b00-7c6c-11eb-95be-cf2209415f52.png)
 
  
-2) Correlation between two jokes: This is calculated using the function shown below which calculates the difference between a value in a column and the mean of the column. This is done for both the jokes to be compared and then correlation between them is calculated using the last line of the function shown in the diagram (Pearson's correlation coeffecient)
+2) Correlation between two jokes:\ This is calculated using the function shown below which calculates the difference between a value in a column and the mean of the column. This is done for both the jokes to be compared and then correlation between them is calculated using the last line of the function shown in the diagram (Pearson's correlation coeffecient)
 ![image](https://user-images.githubusercontent.com/79359151/109815105-3efbd080-7c6a-11eb-801b-54f068bdfd0c.png)
 
+3) Building the simple recommender:\
+   - To manually check the correlation of one joke with every other joke in the dataset would be time-consuming and inefficient. The function below helps to automate this and speed things up.
+![image](https://user-images.githubusercontent.com/79359151/109817695-280aad80-7c6d-11eb-9c90-075b5433a77b.png)
 
 
 
