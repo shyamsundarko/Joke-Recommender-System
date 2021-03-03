@@ -44,9 +44,8 @@ Two recommendation systems have been built:
 \ 
 \
 ![image](https://user-images.githubusercontent.com/79359151/109820142-b2eca780-7c6f-11eb-82ba-e0af0b0b3234.png)
+\
 
-\
-\
 
 
 
