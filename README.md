@@ -69,17 +69,17 @@ Two recommendation systems have been built:
 
 ## User-to-User Collaborative Filtering
 ![image](https://user-images.githubusercontent.com/79359151/109823987-60ad8580-7c73-11eb-98f0-235cafc818e4.png)
-1) Starting with "jester-joke-1"
+### 1) Starting with "jester-joke-1"
 ![image](https://user-images.githubusercontent.com/79359151/109824153-85096200-7c73-11eb-9260-6bf045ee4462.png)
-2) Reshape the dataframe and store it as a new dataframe
+### 2) Reshape the dataframe and store it as a new dataframe
 ![image](https://user-images.githubusercontent.com/79359151/109824356-b6822d80-7c73-11eb-8a42-ab51ce225d00.png)
-3) train_test_split: train:test = 3:1 (random 75%)
+### 3) train_test_split: train:test = 3:1 (random 75%)
 ![image](https://user-images.githubusercontent.com/79359151/109824699-06f98b00-7c74-11eb-908c-a4627d7fd4d6.png)
 
 Now the collaborative filtering can be done in two ways:
-1) By Mean: 
+### 1) By Mean: \
 ![image](https://user-images.githubusercontent.com/79359151/109824915-41632800-7c74-11eb-9cc1-4746b8c637f7.png)
-2) By Weighted Mean
+### 2) By Weighted Mean: \
    - Cosine similarity as the weight
    ![image](https://user-images.githubusercontent.com/79359151/109825044-635caa80-7c74-11eb-8aa1-67750d460622.png)
    - using weighted mean ratings
