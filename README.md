@@ -48,7 +48,8 @@ Two recommendation systems have been built:
 
 ## **User-to-User Recommender System**
 ![image](https://user-images.githubusercontent.com/79359151/109822036-8c2f7080-7c71-11eb-8d85-eb92527a2b2d.png)
-1) Prepare dataset "jester-joke-2" as a test set
+1) Prepare dataset "jester-joke-2" as a test set 
+\
 ![image](https://user-images.githubusercontent.com/79359151/109822276-c4cf4a00-7c71-11eb-98be-180b6678881e.png)
 2) Extract a single user record and also keep the top 10 liked jokes of that user
 ![image](https://user-images.githubusercontent.com/79359151/109822498-f7794280-7c71-11eb-8f4e-95a253518ae6.png)
