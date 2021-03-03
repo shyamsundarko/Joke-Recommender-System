@@ -1,13 +1,13 @@
 # Joke-Recommender-System
 Two recommendation systems have been built:
-1) A simple recommendation system:
+1) A Simple Recommendation system:
     - This is built using the Pearson's correllation coeffecient 
     - Jokes recommended are from the same dataset
-2) A more complex recommendation system using collaborative filtering 
-    - This is built using collaborative filtering
-    - Jokes recommended from another dataset based on user choices on a different initial dataset
+2) User-to-User Recommender system
+2) User-to-User Collaborative Filtering
 
-**Steps taken to implement Simple Recommender System:**
+
+## **Simple Recommender System:**
 1) Cleaning the dataset:
     - Interpreting what the data stands for as it only contained numeric values 
     - Renaming the rows and columns with meaningful names
@@ -30,7 +30,7 @@ Two recommendation systems have been built:
 \
 \
 \
-Correlation heatmap comparing every suggested joke with each other
+**Correlation heatmap comparing every suggested joke with each other**
 \
 \
 ![image](https://user-images.githubusercontent.com/79359151/109818830-63f24280-7c6e-11eb-89b3-8ddfc156fa32.png)
@@ -42,6 +42,11 @@ Observations:
 \
 \
 ![image](https://user-images.githubusercontent.com/79359151/109819315-e418a800-7c6e-11eb-9c05-9c6097b43abd.png)
+
+   - Finding the jokes that are common to both lists help provide a better informed recommendation of jokes
+\ 
+\
+![image](https://user-images.githubusercontent.com/79359151/109820142-b2eca780-7c6f-11eb-82ba-e0af0b0b3234.png)
 
 
 
