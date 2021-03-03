@@ -27,6 +27,7 @@ Two recommendation systems have been built:
 ![image](https://user-images.githubusercontent.com/79359151/109818269-c72fa500-7c6d-11eb-95c6-53dd412a13a5.png)
 ![image](https://user-images.githubusercontent.com/79359151/109818673-35746780-7c6e-11eb-837a-5eaf98c5b8b3.png)
 ![image](https://user-images.githubusercontent.com/79359151/109818728-47560a80-7c6e-11eb-8f6b-51c8ed155936.png)
+\
 Correlation heatmap comparing every suggested joke with each other
 \
 ![image](https://user-images.githubusercontent.com/79359151/109818830-63f24280-7c6e-11eb-89b3-8ddfc156fa32.png)
@@ -34,7 +35,8 @@ Correlation heatmap comparing every suggested joke with each other
 Observations:
    - As well as this system works, it is still a very simple recommender system. Having to recommend jokes to the user based on a SINGLE joke that the user likes, might not be that accurate. So if the user provides more jokes that he/she likes, then the suggestions can be better informed ones.
    - For this example, let us assume that the user likes Joke 5 as well. The process followed to tackle this:
-   - Find the top 30 most correlated jokes with respect to Joke 1.
+   - Find the top 30 most correlated jokes with respect to Joke 1. 
+\
 ![image](https://user-images.githubusercontent.com/79359151/109819315-e418a800-7c6e-11eb-9c05-9c6097b43abd.png)
 
 
