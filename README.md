@@ -13,6 +13,10 @@ Steps taken to implement Simple Recommender System:
     - Renaming the rows and columns with meaningful names
     - There were some garbage values in the dataset like "99" which essentially meant that the joke was not rated by that user (ratings range from -10 to +10)
     - Mean of the column was chosen to replace the garbage value as it would not affect the correlation between two jokes as much.
+
+![image](https://user-images.githubusercontent.com/79359151/109817334-cba78e00-7c6c-11eb-9d75-0a88070ef1b9.png)
+![image](https://user-images.githubusercontent.com/79359151/109817415-dfeb8b00-7c6c-11eb-95be-cf2209415f52.png)
+
  
 2) Correlation between two jokes: This is calculated using the function shown below which calculates the difference between a value in a column and the mean of the column. This is done for both the jokes to be compared and then correlation between them is calculated using the last line of the function shown in the diagram (Pearson's correlation coeffecient)
 ![image](https://user-images.githubusercontent.com/79359151/109815105-3efbd080-7c6a-11eb-801b-54f068bdfd0c.png)
