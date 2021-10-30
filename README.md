@@ -3,8 +3,8 @@ Two recommendation systems have been built:
 1) A Simple Recommendation system:
     - This is built using the Pearson's correllation coeffecient 
     - Jokes recommended are from the same dataset
-2) User-to-User Recommender system using cosine similarity
-2) User-to-User Collaborative Filtering
+2) a) User-to-User Recommender system using cosine similarity
+   b) User-to-User Collaborative Filtering
 
 
 ## **Simple Recommender System:**
